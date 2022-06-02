@@ -1,6 +1,8 @@
 #include <stdio.h>
 /*
- *First Print
+ *main Entry
+ *
+ *Return 0
  */
 int main(void)
 {
