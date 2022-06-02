@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- First Print
+ *First Print
  */
 int main(void)
 {
