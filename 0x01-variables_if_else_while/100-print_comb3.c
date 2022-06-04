@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+/**
+ *main - Entry
+ *
+ *Return: Always 0
+ */
+
+int main(void)
+{
+	int ch;
+	int num;
+
+	for (ch = 0; ch <= 9; ch++)
+	{
+		putchar(ch + '0');
+		for (num=ch; num <= 9; num++)
+		{
+			putchar(num + '0');
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
+}
