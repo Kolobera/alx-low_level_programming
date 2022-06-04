@@ -23,16 +23,16 @@ int main(void)
 				{
 					if (ch * 10 + num < chi * 10 + nom)
 					{
-						putchar(ch + '0');
-						putchar(num + '0');
-						putchar(' ');
-						putchar(chi + '0');
-						putchar(nom + '0');
-						if (ch * 1000 + num * 100 + chi * 10 + nom != 9899)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					putchar(ch + '0');
+					putchar(num + '0');
+					putchar(' ');
+					putchar(chi + '0');
+					putchar(nom + '0');
+					if (ch * 1000 + num * 100 + chi * 10 + nom != 9899)
+					{
+					putchar(',');
+					putchar(' ');
+					}
 					}
 				}
 			}
