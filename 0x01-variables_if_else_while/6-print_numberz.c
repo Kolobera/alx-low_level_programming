@@ -11,6 +11,6 @@ int main(void)
 	int ch;
 
 	for (ch = 0; ch <=9; ch++)
-		putchar("%d", ch);
+		putchar(ch + '0');
 	return (0);
 }
