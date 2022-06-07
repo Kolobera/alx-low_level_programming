@@ -7,11 +7,10 @@
  *Return: 0 or 1
  */
 
-int _is_lower(char c)
+int _is_lower(int c)
 {
-	int re;  
-		
-	re = is_lower(c);
-	
-	return (re);
+	if (97 <= c <=112)
+		return (1);
+	else 
+		return (0);
 }
