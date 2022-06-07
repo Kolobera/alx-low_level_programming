@@ -2,14 +2,16 @@
 #include "main.h"
 
 /**
- *_is_lower - Tell if lowercase
+ *_islower - Tell if lowercase
+ *
+ *@c: c la fête 
  *
  *Return: 0 or 1
  */
 
 int _islower(int c)
 {
-	if (97 <= c && c <=112)
+	if (c  >= 97 && c <= 122)
 		return (1);
 	else 
 		return (0);
