@@ -9,7 +9,7 @@
 
 int _is_lower(int c)
 {
-	if (97 <= c <=112)
+	if (97 <= c && c <=112)
 		return (1);
 	else 
 		return (0);
