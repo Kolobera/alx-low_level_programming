@@ -7,7 +7,7 @@
  *Return: 0 or 1
  */
 
-int _is_lower(int c)
+int _islower(int c)
 {
 	if (97 <= c && c <=112)
 		return (1);
