@@ -18,7 +18,7 @@ int main(void)
 		if (c <= 49)
 		{
 		s = a + b;
-		printf("%d, ");
+		printf("%d, ", s);
 		a = b; 
 		b = s;
 		}
