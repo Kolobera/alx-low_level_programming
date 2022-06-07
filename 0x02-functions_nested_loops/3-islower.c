@@ -9,9 +9,9 @@
 
 int _is_lower(char c)
 {
-	bool re;  
+	int re;  
 		
-	re = is_lower(int c);
+	re = is_lower(c);
 	
 	return (re);
 }
