@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * counti - count
+ * main - count
  *
  * Return: 0
  */
 
-void counti(void)
+int main(void)
 {
 	int a;
 	int s = 0;
@@ -19,4 +19,5 @@ void counti(void)
 		}
 	}
 	printf("%d\n", s);
+	return (0);
 }
