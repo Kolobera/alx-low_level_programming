@@ -10,7 +10,6 @@ int main(void)
 {
 	long a = 0;
 	long b = 1;
-	int c;
 	long s;
 	long d;
 
