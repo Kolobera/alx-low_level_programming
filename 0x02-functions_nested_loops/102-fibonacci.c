@@ -11,14 +11,14 @@ int main(void)
 	long a = 0;
 	long b = 1;
 	int c;
-	long long s;
+	long s;
 
 	for (c = 1; c <= 50; c++)
 	{
 		if (c <= 49)
 		{
 		s = a + b;
-		printf("%lld, ", s);
+		printf("%ld, ", s);
 		a = b; 
 		b = s;
 		}
