@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	int a = 0;
-	int b = 1;
+	long a = 0;
+	long b = 1;
 	int c;
-	int s;
+	long long s;
 
 	for (c = 1; c <= 50; c++)
 	{
