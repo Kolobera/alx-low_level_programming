@@ -19,7 +19,7 @@ int main(void)
 		{
 		s = a + b;
 		printf("%ld, ", s);
-		a = b; 
+		a = b;
 		b = s;
 		}
 		else if (c == 50)
