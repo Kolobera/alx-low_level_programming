@@ -16,7 +16,10 @@ int main(void)
 	while (s < 4000000)
 	{
 		if (b % 2 == 1)
+		{
+			printf("zzz %ld", b);
 			d += b;
+		}
 		s = a + b;
 		a = b;
 		b = s;
