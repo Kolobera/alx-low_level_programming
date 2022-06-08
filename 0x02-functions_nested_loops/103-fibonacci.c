@@ -17,7 +17,6 @@ int main(void)
 	{
 		if (b % 2 == 1)
 		{
-			printf("zzz %ld", b);
 			d += b;
 		}
 		s = a + b;
