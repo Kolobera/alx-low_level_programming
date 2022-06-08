@@ -18,6 +18,8 @@ int main(void)
 		if (c <= 49)
 		{
 		s = a + b;
+		if (s <= 0)
+			printf("c  du zeub %d, %d", a, b);
 		printf("%d, ", s);
 		a = b; 
 		b = s;
