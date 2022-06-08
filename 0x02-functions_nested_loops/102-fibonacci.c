@@ -18,14 +18,12 @@ int main(void)
 		if (c <= 49)
 		{
 		s = a + b;
-		if (s <= 0)
-			printf("c  du zeub %d, %d", a, b);
-		printf("%d, ", s);
+		printf("%lld, ", s);
 		a = b; 
 		b = s;
 		}
 		else if (c == 50)
-			printf("%d\n", a + b);
+			printf("%ld\n", a + b);
 	}
 	return (0);
 }
