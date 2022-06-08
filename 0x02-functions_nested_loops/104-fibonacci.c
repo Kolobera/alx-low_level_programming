@@ -3,7 +3,6 @@
 #define LARGEST 10000000000
 
 /**
- *
  * main - main block
  *
  * Description: Find and print the first 98 fib numbers
@@ -11,7 +10,6 @@
  * Numbers should be coma and space separated.
  *
  * Return: 0
- *
  */
 
 int main(void)
