@@ -22,7 +22,7 @@ int main(void)
 		a = b; 
 		b = s;
 		}
-		else
+		else if (c == 50)
 			printf("%d\n", a + b);
 	}
 	return (0);
