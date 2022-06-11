@@ -3,14 +3,14 @@
 /**
  * more_numbers - more numbers
  *
- * Return 0
+ * Return: 0
  */
 
 void more_numbers(void)
 {
 	int ch;
 	int i;
-	int c;
+	int c = 0;
 
 	for (i = 0; i <= 9; i++)
 	{
@@ -23,7 +23,7 @@ void more_numbers(void)
 				_putchar(49);
 				c = ch - 10;
 			}
-			_putchar(ch);
+			_putchar(c);
 		}
 		putchar('\n');
 	}
