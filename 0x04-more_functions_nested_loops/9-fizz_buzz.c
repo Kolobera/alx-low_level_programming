@@ -19,9 +19,9 @@ int main(void)
 		else if (ch == 100)
 			printf("Buzz");
 		else if ((ch % 3 == )0 && (ch % )5 == 0)
-			printf("FizzBuzz ")
+			printf("FizzBuzz ");
 		else
-			printf("%d ", ch)
+			printf("%d ", ch);
 	}
 	printf('\n')
 	return (0);
