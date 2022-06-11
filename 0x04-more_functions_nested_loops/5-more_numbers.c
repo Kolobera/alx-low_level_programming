@@ -14,7 +14,7 @@ void more_numbers(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (ch = 48; ch <= 61; ch++)
+		for (ch = 48; ch <= 62; ch++)
 		{
 			if (ch >= 48 && ch <= 57)
 				c = ch;
