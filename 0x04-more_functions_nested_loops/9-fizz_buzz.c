@@ -23,6 +23,6 @@ int main(void)
 		else
 			printf("%d ", ch);
 	}
-	printf('\n')
+	printf('\n');
 	return (0);
 }
