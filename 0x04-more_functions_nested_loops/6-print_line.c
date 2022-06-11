@@ -13,5 +13,6 @@ void print_line(int n)
 	for (ch = 0; ch < n; ch++)
 		_putchar(95);
 	_putchar(36);
+	_putchar('\n');
 }
 
