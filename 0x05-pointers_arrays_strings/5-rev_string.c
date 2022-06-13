@@ -5,7 +5,7 @@
  * @s: string
  * Return: None
  */
-void rev_string(char *s);
+void rev_string(char *s)
 {
 	int c;
 	int i;
