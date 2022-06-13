@@ -17,6 +17,6 @@ void rev_string(char *s)
 	}
 	for (i = c - 1; i >= 0; i--)
 	{
-		*s[i] = mot[c - 1 - i];
+		*(s + i) = mot[c - 1 - i];
 	}
 }
