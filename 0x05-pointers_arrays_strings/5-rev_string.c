@@ -9,7 +9,7 @@ void rev_string(char *s)
 {
 	int c;
 	int i;
-	char mot[256];
+	char mot[25000];
 
 	for (c = 0; s[c] != '\0'; c++)
 	{
