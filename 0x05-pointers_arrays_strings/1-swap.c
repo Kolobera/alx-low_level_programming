@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * swap_int : swap two ints
+ * swap_int - swap two ints
  * @a : first int
- * @b; second int
- * Return none
+ * @b: second int
+ * Return: none
  */
 
 void swap_int(int *a, int *b)
