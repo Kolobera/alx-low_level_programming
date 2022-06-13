@@ -13,11 +13,10 @@ void print_array(int *a, int n)
 
 	for (c = 0; c <= n - 1; c++)
 	{
-		_putchar(a[c]);
+		printf("%d", a[c]);
 		if (c != n)
 		{
-			_putchar(44);
-			_putchar(32);
+			printf(", ");
 		}
 	}
 	_putchar('\n');
