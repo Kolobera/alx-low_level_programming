@@ -9,7 +9,7 @@ void rev_string(char *s)
 {
 	int c;
 	int i;
-	char mot[];
+	char mot[256];
 
 	for (c = 0; s[c] != '\0'; c++)
 	{
@@ -17,6 +17,6 @@ void rev_string(char *s)
 	}
 	for (i = c - 1; i >= 0; i--)
 	{
-		*s[i] = mot[c - 1 - i]
+		*s[i] = mot[c - 1 - i];
 	}
 }
