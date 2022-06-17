@@ -20,10 +20,10 @@ char *_strncpy(char *dest, char *src, int n)
 		}
 		c++;
 	}
-	while (i < n)
+	while (c < n)
 	{
-		dest[i] = '\0';
-		i++;
+		dest[c] = '\0';
+		c++;
 	}
 	return (dest);
 }
