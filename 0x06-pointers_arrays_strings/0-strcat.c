@@ -10,7 +10,6 @@
 char *_strcat(char *dest, char *src)
 {
 	int c, i;
-	char k;
 
 	for (c = 1; dest[c] != '\0'; c++)
 	{
