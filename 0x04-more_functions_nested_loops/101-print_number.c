@@ -8,9 +8,6 @@
 
 void print_number(int n)
 {
-	int i, d, p, f;
-	int j;
-	char num[1000];
 	unsigned int z;
 	int m, b;
 
