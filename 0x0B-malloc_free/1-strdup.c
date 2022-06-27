@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * strdup - copy a string in another location
+ * _strdup - copy a string in another location
  * @str: string to copy
  */
 
@@ -17,6 +17,8 @@ char *_strdup(char *str)
 		i++;
 	i++;
 	new = malloc(sizeof(char) * i);
+	if (new == NULL)
+		return (NULL);
 	for (j = 0; j <= i; j++)
 		new[j] = str[j];
 	return (new);
