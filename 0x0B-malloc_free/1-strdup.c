@@ -4,6 +4,7 @@
 /**
  * _strdup - copy a string in another location
  * @str: string to copy
+ * Return: NULL or pointer of string
  */
 
 char *_strdup(char *str)
