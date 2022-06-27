@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * create_array - create an array
  * @size: size of the array
@@ -9,7 +10,7 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char mot[] = NULL;
+	char mot[];
 	int i;
 
 	mot = malloc(sizeof(int), size);
