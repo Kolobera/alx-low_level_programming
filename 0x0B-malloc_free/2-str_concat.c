@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * strconcat - concatenate 2 strings
+ * str_concat - concatenate 2 strings
  * @s1: string to concat
  * @s2: string to concat
  * Return: Null or new string
@@ -29,6 +29,6 @@ char *str_concat(char *s1, char *s2)
 		new[c] = s1[c];
 	for (c = i; c <= i+j; c++)
 		new[c] = s2[c];
-	free(new);
 	return (new);
+	free(new);
 }
