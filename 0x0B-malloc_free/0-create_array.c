@@ -20,6 +20,6 @@ char *create_array(unsigned int size, char c)
 	for (i = 0; i < size; i++)
 		mot[i] = c;
 
-	return (mot);	
+	return (mot);
 	free(mot);
 }
