@@ -32,8 +32,8 @@ char *str_concat(char *s1, char *s2)
 
 	for (c = 0; c < i; c++)
 		new[c] = s1[c];
-	for (c = i; c < i + j; c++)
-		new[c] = s2[c];
+	for (c = 0; c < j; c++)
+		new[i + c] = s2[c];
 	return (new);
 	free(new);
 }
