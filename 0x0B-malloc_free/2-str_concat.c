@@ -30,5 +30,5 @@ char *str_concat(char *s1, char *s2)
 	for (c = i; c <= i+j; c++)
 		new[c] = s2[c];
 	free(new);
-	return (c);
+	return (new);
 }
