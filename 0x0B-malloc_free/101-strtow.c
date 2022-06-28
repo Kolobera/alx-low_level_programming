@@ -3,6 +3,25 @@
 #include <stdio.h>
 
 /**
+ * _strcmp - same as strcmp
+ * @s1: string
+ * @s2: string
+ * Return: int
+ */
+int _strcmp(char *s1, char *s2)
+{
+	int i = 0;
+	
+	while (s1[i] != '\0' && s2[i] != '\0')
+	{
+		if (s1[i] != s2[i])
+			return (s1[i] - s2[i]);
+		i++;
+	}
+	return (0);
+}
+
+/**
  * words - count the number of words
  * @str: string
  * Return: count
@@ -74,7 +93,7 @@ char **strtow(char *str)
 	char **new;
 	int i = 0, j = 0, pos, t;
 
-	if (str == NULL || strcmp(str, "") || (words(str) == 0))
+	if (str == NULL || _strcmp(str, "") || (words(str) == 0))
 		return (NULL);
 	new = malloc(sizeof(int *) * (words(str) + 1));
 	if (new == NULL)
