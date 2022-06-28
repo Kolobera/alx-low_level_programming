@@ -37,5 +37,5 @@ char *argstostr(int ac, char **av)
 		if (new[k] == '\0')
 			new[k++] = '\n';
 	}
-	return (new)
+	return (new);
 }
