@@ -95,7 +95,7 @@ char **strtow(char *str)
 
 	if (str == NULL || _strcmp(str, "") || (words(str) == 0))
 		return (NULL);
-	new = malloc(sizeof(int *) * (words(str) + 3));
+	new = malloc(sizeof(int *) * (words(str) + 2));
 	if (new == NULL)
 		return (NULL);
 	while (str[i])
