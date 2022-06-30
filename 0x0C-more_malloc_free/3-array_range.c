@@ -3,6 +3,10 @@
 #include <stdlib.h>
 
 /**
+ * arry_range - create array
+ * @min: minimum
+ * @max: maximum
+ * Return: pointer
  */
 
 int *array_range(int min, int max)
