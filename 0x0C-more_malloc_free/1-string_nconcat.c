@@ -26,10 +26,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	new = malloc(i + n + 1);
 	if (new == NULL)
 		return (NULL);
-	while (s1[i])
+	while (s1[k])
 	{
-		new[i] = s1[i];
-		i++;
+		new[k] = s1[k];
+		k++;
 	}
 	while (j < n)
 	{
