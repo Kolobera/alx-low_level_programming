@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * arry_range - create array
+ * array_range - create array
  * @min: minimum
  * @max: maximum
  * Return: pointer
