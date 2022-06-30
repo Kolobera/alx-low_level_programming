@@ -82,7 +82,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 {
 	int mult_len, num, tens = 0;
 
-	mult_len = find(mult) - 1;
+	mult_len = find_len(mult) - 1;
 	mult += mult_len;
 
 	while (*prod)
@@ -101,7 +101,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 		if (*mult < '0' || *mult > '9')
 		{
 			printf("Error\n");
-			exit(98)
+			exit(98);
 		}
 		num = (*mult - '0') * digit;
 		num += tens;
