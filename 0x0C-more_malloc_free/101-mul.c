@@ -119,7 +119,6 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
  */
 
 void add_nums(char *final_prod, char *next_prod, int next_len)
-
 {
 	int num, tens = 0;
 
@@ -166,10 +165,10 @@ int main(int argc, char *argv[])
 		exit(98);			
 	}
 	if (*(argv[1]) == '0')
-		argv[1] = iterate_zeroes(argv[1]);
+		argv[1] = add_zeros(argv[1]);
 
 	if (*(argv[2]) == '0')
-		argv[2] = iterate_zeroes(argv[2]);
+		argv[2] = add_zeros(argv[2]);
 
 	if (*(argv[1]) == '\0' || *(argv[2]) == '\0')
 	{
@@ -181,7 +180,7 @@ int main(int argc, char *argv[])
 	next_prod = create_xarray(size + 1);
 	for (index = find_len(argv[2]) - 1; index >= 0; index--)
 	{
-		digit = get_digit(*(argv[2] + index));
+		digit = get_dig(*(argv[2] + index));
 		get_prod(next_prod, argv[1], digit, zeroes++);
 		add_nums(final_prod, next_prod, size - 1);
 	}
