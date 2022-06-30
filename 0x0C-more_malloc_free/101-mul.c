@@ -162,7 +162,7 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 	{
 		printf("Error\n");
-		exit(98);			
+		exit(98);
 	}
 	if (*(argv[1]) == '0')
 		argv[1] = add_zeros(argv[1]);
@@ -190,7 +190,6 @@ int main(int argc, char *argv[])
 			putchar(final_prod[index]);
 	}
 	putchar('\n');
-	
 	free(next_prod);
 	free(final_prod);
 	return (0);
