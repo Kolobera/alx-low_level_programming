@@ -3,6 +3,7 @@
 
 /**
  * get_op_func - get operator
+ * @s: string
  * Return: result
  */
 
@@ -17,7 +18,7 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL}
 	};
 	int i;
-	
+
 	while (i < 5)
 	{
 		if (*(ops[i].op) == *s && s[0] != '\0')

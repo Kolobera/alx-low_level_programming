@@ -4,7 +4,7 @@
 /**
  * main - main func
  * @argc: nb of args
- * @aargv: args passed
+ * @argv: args passed
  * Return: 0 if success
  */
 

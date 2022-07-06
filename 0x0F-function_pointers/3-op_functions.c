@@ -21,7 +21,7 @@ int op_add(int a, int b)
  * Return: substraction of a and b
  */
 
-int op_sub( int a, int b)
+int op_sub(int a, int b)
 {
 	return (a - b);
 }
@@ -29,7 +29,7 @@ int op_sub( int a, int b)
 /**
  * op_mul - mul two ints
  * @a: int
- * @b: int 
+ * @b: int
  * Return: result of multiplication of a and b
  */
 
