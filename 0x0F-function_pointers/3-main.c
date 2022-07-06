@@ -1,6 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - main func
  * @argc: nb of args
