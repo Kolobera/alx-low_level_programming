@@ -4,12 +4,12 @@
 
 /**
  * print_strings - prints strings
- * @seperator: seperator.
+ * @separator: separator.
  * @n: number of strings to be printed
  * Return: void
  */
 
-void print_strings(const char *seperator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int i;
