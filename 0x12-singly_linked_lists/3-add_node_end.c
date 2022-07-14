@@ -20,7 +20,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		printf("Error\n");
 		return (NULL);
 	}
-	if (head = NULL)
+	if (*head = NULL)
 	{
 		*head = new;
 	}
