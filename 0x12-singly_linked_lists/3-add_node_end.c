@@ -17,7 +17,6 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (new == NULL)
 	{
 		free(new);
-		printf("Error\n");
 		return (NULL);
 	}
 	if (*head == NULL)
@@ -42,7 +41,6 @@ list_t *add_node_end(list_t **head, const char *str)
 		if (new->str == 0)
 		{
 			free(new);
-			printf("Error\n");
 			return (NULL);
 		}
 		for (i = 0; str[i];)
