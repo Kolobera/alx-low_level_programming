@@ -33,20 +33,20 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 	if (str == NULL)
 	{
-		newn->str = 0;
-		newn->len = 0;
+		new->str = 0;
+		new->len = 0;
 		else
 		{
 			new->str = strdup(str);
 			if (new->str == 0)
 			{
-				free(newn);
+				free(new);
 				printf("Error\n");
 				return (NULL);
 			}
 			for (i = 0; str[i];)
 				i++;
-			newn->len = i;
+			new->len = i;
 		}
 		new->next = NULL;
 		return (new);
