@@ -13,8 +13,8 @@ size_t free_listint_safe(listint_t **h)
 {
 	listint_t *s_ptr, *f_ptr, *free_ptr;
 	size_t size;
-	size = 0;
 
+	size = 0;
 	if (!h || *h == NULL)
 		return (0);
 	f_ptr = (*h)->next;
