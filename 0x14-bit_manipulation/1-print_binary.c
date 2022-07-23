@@ -13,7 +13,7 @@ void print_recursion(unsigned long int n)
 }
 
 /**
- * print_binary - print binary 
+ * print_binary - print binary
  * @n: int
  * Return: None
  */
