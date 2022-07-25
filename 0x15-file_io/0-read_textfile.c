@@ -10,9 +10,9 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char buf[letters + 1];
-	int fd, i, j;
+	int fd, i = 1, j = 1;
 
-	if (!filename)
+	if (filename == NULL)
 		return (0);
 	fd = open(filename, O_RDONLY | O_EXCL);
 	if (fd == -1)
