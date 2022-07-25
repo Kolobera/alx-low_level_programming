@@ -33,3 +33,17 @@ int create_file(const char *filename, char *text_content)
 	close(fd);
 	return (1);
 }
+
+/**
+ * str_len - size of a string
+ * @s: string
+ * Return:len
+ */
+
+int str_len(char *s)
+{
+	int len = 0;
+	while (s[len++])
+		continue;
+	return (len - 1);
+}
