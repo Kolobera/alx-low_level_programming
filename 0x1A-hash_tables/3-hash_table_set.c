@@ -3,7 +3,9 @@
 /**
  * hash_table_set - adds an element to the hash table
  * @key: key of element
+ * @ht: hash table
  * @value: value of el
+ * Return: Success or fail
  */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
@@ -19,11 +21,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (!valuecopy)
 		return (0);
 	index = key_index((const unsigned char *)key, ht->size);
-	
+
 	bucket = ht->array[index];
 	while (bucket)
 	{
-		if(!strcmp(key, bucket->key))
+		if (!strcmp(key, bucket->key))
 		{
 			free(bucket->value);
 			bucket->value = valuecopy;
