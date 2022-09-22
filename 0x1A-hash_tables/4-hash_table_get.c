@@ -20,8 +20,8 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	while (bucket)
 	{
 		if (!strcmp(key, bucket->key))
-			return bucket->value;
+			return (bucket->value);
 		bucket = bucket->next;
 	}
-	return NULL;
+	return (NULL);
 }
