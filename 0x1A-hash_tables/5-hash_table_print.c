@@ -23,6 +23,7 @@ void hash_table_print(const hash_table_t *ht)
 			if (surv)
 				printf(", ");
 			printf("'%s': '%s'", bucket->key, bucket->value);
+			surv = 1;
 			bucket = bucket->next;
 		}
 	}
