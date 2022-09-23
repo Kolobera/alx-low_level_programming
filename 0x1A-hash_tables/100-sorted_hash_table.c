@@ -8,7 +8,7 @@
 
 shash_table_t *shash_table_create(unsigned long int size)
 {
-	shash_table_t new;
+	shash_table_t *new;
 
 	if (size == 0)
 		return (NULL);
@@ -20,7 +20,7 @@ shash_table_t *shash_table_create(unsigned long int size)
 	new->array = calloc(size, sizeof(shash_node_t *));
 	if (!new->array)
 	{
-		free(table);
+		free(new);
 		return (NULL);
 	}
 	return (new);
@@ -91,7 +91,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 		if (!strcmp(key, bucket->key))
 		{
 			free(bucket->value);
-			bucket->value = value;
+			bucket->value = valuecopy;
 			return (1);
 		}
 		bucket = bucket->next;
