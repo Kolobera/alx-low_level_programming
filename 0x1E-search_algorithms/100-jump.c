@@ -1,19 +1,6 @@
 #include "search_algos.h"
 
 /**
- * min - finds min
- * @a: a
- * @b: b
- * Return: min
- */
-int min(size_t a, int b)
-{
-    if (b < (int)(a))
-        return b;
-    return a;
-}
-
-/**
  * jump_search - implements jump search
  * @array: array to search in
  * @size: size of array
